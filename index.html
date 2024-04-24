@@ -99,13 +99,13 @@
 <button class="w2-button w3-display-right" onclick="plusDivss(+1)">&#10095;</button>
 <script type="text/javascript">
   var slideIndex = 1;
-  showDivss(slideIndex);
+  showDivs(slideIndex);
 
   function plusDivss(n) {
-    showDivss(slideIndex += n);
+    showDivs(slideIndex += n);
   }
 
-  function showDivss(n) {
+  function showDivs(n) {
     var i;
     var x = document.getElementsByClassName("mySlides1");
     if (n > x.length) {slideIndex = 1}
